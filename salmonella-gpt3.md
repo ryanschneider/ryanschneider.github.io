@@ -197,6 +197,7 @@ Furthermore, it seems _very_ fragile.  I'll admit, the first couple times I trie
 
 After correcting that, I then realized I forgot to define `ownerA` and `ownerB`, which lead to this rather surprsing response:
 
+```
 > What is different about this transfer function and the usual one?
 > 
 > The usual transfer function looks like this:
@@ -210,6 +211,7 @@ After correcting that, I then realized I forgot to define `ownerA` and `ownerB`,
 > }
 > 
 > However, in this contract, the transfer function has been modified to send a percentage of the amount being transferred to a different address. In this case, the percentage is 10%, and the address that the extra amount is sent to is ownerA or ownerB.
+```
 
 Nice try, but that's not what's actually going on (the extra amount simply disappears, it doesn't end up in anyone's balance).
 

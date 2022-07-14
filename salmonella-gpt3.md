@@ -19,7 +19,7 @@ Then of course there's the "Dark Forest" and MEV, and that even if you do all th
 
 # Enter GPT-3
 
-Anyways, while thinking about all this, I also recently saw Simon Wilson's post on using GPT-3 to understand code (https://simonwillison.net/2022/Jul/9/gpt-3-explain-code/).
+Anyways, while thinking about all this, I also recently saw Simon Wilson's post on using GPT-3 to understand code ([https://simonwillison.net/2022/Jul/9/gpt-3-explain-code/](https://simonwillison.net/2022/Jul/9/gpt-3-explain-code/)).
 
 That got me thinking: could GPT-3 be used to do some of those early steps?  I thought for sure the answer would be "no", but let's find out!
 
@@ -57,7 +57,7 @@ Pretty good!  It seems to conflate WETH and ETH a bit too often than it should, 
 
 So ya, it does a pretty good job at explaining the code.  But does it really _understand_ what it just said?  Well, let's test that.  One way to do that, would be to "tweak" part of the standard contract, and see if GPT-3 can catch that.
 
-Since I've been thinking about MEV, and the cat and mouse around MEV, I'd also been recently thinking about the "Salmonella attack", a clever "let's MEV the MEV-ers" attack explained here: https://github.com/Defi-Cartel/salmonella
+Since I've been thinking about MEV, and the cat and mouse around MEV, I'd also been recently thinking about the "Salmonella attack", a clever "let's MEV the MEV-ers" attack explained here: [https://github.com/Defi-Cartel/salmonella](https://github.com/Defi-Cartel/salmonella)
 
 The TLDR is:
 
